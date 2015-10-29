@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="CustomDirective">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="autocomplete-jquery-ui.structure.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Mi primera Directiva con AngularJS</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.4.7/angular-route.js"></script>
+
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="autocomplete-jquery-ui.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="directives.js"></script>
+	<script type="text/javascript" src="controllers.js"></script>
+	<style type="text/css">
+		.circular{
+			border-radius: 50%;
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+		}
+
+		.no-list li{
+			list-style-type: none;
+		}
+
+		body,html{
+			text-align: center;;
+			background-color: #eee;
+			margin: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div ng-view></div>
+</body>
+</html>
